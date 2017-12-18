@@ -10,7 +10,7 @@ class Crawler:
     def __init__(self, base_url):
         self.base_url = base_url
 
-    def get_current_games(self):
+    def get_tournaments(self):
         raise NotImplementedError('Method get_current_games is not implemented')
 
     def get(self, url):
